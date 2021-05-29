@@ -178,7 +178,7 @@
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>12</damageAmountBase>
-      <armorPenetrationBase>0.1</armorPenetrationBase>
+      <armorPenetrationBase>0.2</armorPenetrationBase>
       <speed>60</speed>
     </projectile>
   </ThingDef>
@@ -222,7 +222,7 @@
         <defaultProjectile>HRK_Bullet_SCARH</defaultProjectile>
         <warmupTime>1.2</warmupTime>
         <range>34</range>
-        <burstShotCount>2</burstShotCount>
+        <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
         <soundCast>HRK_Shot_SCARH</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -298,7 +298,7 @@
         <defaultProjectile>HRK_Bullet_SCARH</defaultProjectile>
         <warmupTime>1.2</warmupTime>
         <range>40</range>
-        <burstShotCount>2</burstShotCount>
+        <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
         <soundCast>HRK_Shot_SD_SCARH</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -395,7 +395,7 @@
         <defaultProjectile>HRK_Bullet_Charged_SCAR</defaultProjectile>
         <warmupTime>1.2</warmupTime>
         <range>43</range>
-        <burstShotCount>2</burstShotCount>
+        <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
         <soundCast>HRK_Shot_Charged_SCAR</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
