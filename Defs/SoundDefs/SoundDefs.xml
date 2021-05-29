@@ -2,7 +2,7 @@
 
 <Defs>
     <SoundDef>
-        <defName>GN_Shot_SCARL</defName>
+        <defName>HRK_Shot_SCARL</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -10,7 +10,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/GN_Shot_SCARL</clipFolderPath>
+                        <clipFolderPath>Weapons/HRK_Shot_SCARL</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -27,7 +27,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>GN_Shot_SD_SCARL</defName>
+        <defName>HRK_Shot_SD_SCARL</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -35,7 +35,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/GN_Shot_SD_SCARL</clipFolderPath>
+                        <clipFolderPath>Weapons/HRK_Shot_SD_SCARL</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -52,7 +52,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>GN_Shot_SCARH</defName>
+        <defName>HRK_Shot_SCARH</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -60,7 +60,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/GN_Shot_SCARH</clipFolderPath>
+                        <clipFolderPath>Weapons/HRK_Shot_SCARH</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -77,7 +77,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>GN_Shot_SD_SCARH</defName>
+        <defName>HRK_Shot_SD_SCARH</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -85,7 +85,32 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/GN_Shot_SD_SCARH</clipFolderPath>
+                        <clipFolderPath>Weapons/HRK_Shot_SD_SCARH</clipFolderPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>34.2941</min>
+                    <max>40.2941</max>
+                </volumeRange>
+                <pitchRange>
+                    <min>1.191765</min>
+                    <max>1.231435</max>
+                </pitchRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
+        <defName>HRK_Shot_Charged_SCAR</defName>
+        <context>MapOnly</context>
+        <eventNames />
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Folder">
+                        <clipFolderPath>Weapons/HRK_Shot_Charged_SCAR</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>

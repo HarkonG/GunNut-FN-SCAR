@@ -12,7 +12,7 @@
                 <!--===== TOOLS FOR THE TOOL GOD =====-->
                 <li Class="PatchOperationReplace">
                     <xpath>
-				    /Defs/ThingDef[defName = "GN_SCARH" or defName="GN_SCARH_C" or defName="GN_SCARL_C" or defName="GN_SCARL"]/tools
+				    /Defs/ThingDef[defName = "HRK_SCARH" or defName="HRK_SCARH_C" or defName="HRK_SCARL_C" or defName="HRK_SCARL" or defName="HRK_Charged_SCAR"]/tools
                     </xpath>
                     <value>
                         <tools>
@@ -53,7 +53,7 @@
 
                 <!--SCAR L-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>GN_SCARL</defName>
+                    <defName>HRK_SCARL</defName>
                     <statBases>
                         <Bulk>6.35</Bulk>
                         <Mass>3.29</Mass>
@@ -76,7 +76,7 @@
                         <range>55</range>
                         <burstShotCount>6</burstShotCount>
                         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-                        <soundCast>GN_Shot_SCARL</soundCast>
+                        <soundCast>HRK_Shot_SCARL</soundCast>
                         <soundCastTail>GunTail_Medium</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
                         <recoilAmount>1.5</recoilAmount>
@@ -94,7 +94,7 @@
                 </li>
 
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>GN_SCARL_C</defName>
+                    <defName>HRK_SCARL_C</defName>
                     <statBases>
                         <Bulk>6.45</Bulk>
                         <Mass>3.39</Mass>
@@ -117,7 +117,7 @@
                         <range>55</range>
                         <burstShotCount>6</burstShotCount>
                         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-                        <soundCast>GN_Shot_SD_SCARL</soundCast>
+                        <soundCast>HRK_Shot_SD_SCARL</soundCast>
                         <soundCastTail>GunTail_Medium</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
                         <recoilAmount>1.4</recoilAmount>
@@ -136,7 +136,7 @@
 
                 <!--SCAR H-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>GN_SCARH</defName>
+                    <defName>HRK_SCARH</defName>
                     <statBases>
                         <Bulk>7.11</Bulk>
                         <Mass>3.58</Mass>
@@ -159,7 +159,7 @@
                         <range>62</range>
                         <burstShotCount>6</burstShotCount>
                         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-                        <soundCast>GN_Shot_SCARH</soundCast>
+                        <soundCast>HRK_Shot_SCARH</soundCast>
                         <soundCastTail>GunTail_Medium</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
                         <recoilAmount>2.11</recoilAmount>
@@ -177,7 +177,7 @@
                 </li>
 
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>GN_SCARH_C</defName>
+                    <defName>HRK_SCARH_C</defName>
                     <statBases>
                         <Bulk>7.21</Bulk>
                         <Mass>3.68</Mass>
@@ -200,7 +200,7 @@
                         <range>62</range>
                         <burstShotCount>6</burstShotCount>
                         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-                        <soundCast>GN_Shot_SD_SCARH</soundCast>
+                        <soundCast>HRK_Shot_SD_SCARH</soundCast>
                         <soundCastTail>GunTail_Medium</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
                         <recoilAmount>2</recoilAmount>
@@ -209,6 +209,49 @@
                         <magazineSize>20</magazineSize>
                         <reloadTime>4</reloadTime>
                         <ammoSet>AmmoSet_762x51mmNATO</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiUseBurstMode>TRUE</aiUseBurstMode>
+                        <aiAimMode>AimedShot</aiAimMode>
+                        <aimedBurstShotCount>3</aimedBurstShotCount>
+                    </FireModes>
+                </li>
+
+                <!--SCAR (charged)-->
+                <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                    <defName>HRK_Charged_SCAR</defName>
+                    <statBases>
+                        <Bulk>9.65</Bulk>
+                        <Mass>3.58</Mass>
+                        <RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
+                        <SightsEfficiency>2.36</SightsEfficiency>
+                        <ShotSpread>0.01</ShotSpread>
+                        <SwayFactor>1.38</SwayFactor>
+                        <WorkToMake>53500</WorkToMake>
+                    </statBases>
+                    <costList>
+                        <Chemfuel>10</Chemfuel>
+                        <Plasteel>25</Plasteel>
+                        <Steel>50</Steel>
+                        <ComponentIndustrial>11</ComponentIndustrial>
+                    </costList>
+                    <Properties>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>true</hasStandardCommand>
+                        <defaultProjectile>Bullet_8x50mmCharged</defaultProjectile>
+                        <warmupTime>1.4</warmupTime>
+                        <range>62</range>
+                        <burstShotCount>6</burstShotCount>
+                        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+                        <soundCast>HRK_Shot_Charged_SCAR</soundCast>
+                        <soundCastTail>GunTail_Medium</soundCastTail>
+                        <muzzleFlashScale>9</muzzleFlashScale>
+                        <recoilAmount>2.11</recoilAmount>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>25</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>AmmoSet_8x50mmCharged</ammoSet>
                     </AmmoUser>
                     <FireModes>
                         <aiUseBurstMode>TRUE</aiUseBurstMode>

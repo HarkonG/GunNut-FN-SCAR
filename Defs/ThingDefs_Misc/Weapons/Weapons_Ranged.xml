@@ -4,7 +4,7 @@
 
   <!--===== SCAR L =====-->
   <ThingDef ParentName="BaseBullet">
-    <defName>GN_Bullet_SCARL</defName>
+    <defName>HRK_Bullet_SCARL</defName>
     <label>FN SCAR-L rifle bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
@@ -18,11 +18,11 @@
   </ThingDef>
 
   <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>GN_SCARL</defName>
+    <defName>HRK_SCARL</defName>
     <label>FN SCAR-L</label>
-    <description>_</description>
+    <description>The FN SCAR (Special Operations Forces Combat Assault Rifle) is a gas-operated self-loading assault/battle rifle with a rotating bolt. It is constructed with modularity in mind.\n\nThis SCAR-L is set up in the assault rifle configuration.</description>
     <graphicData>
-      <texPath>Things/Weapons/GN_SCARL</texPath>
+      <texPath>Things/Weapons/HRK_FNSCARL</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <equippedAngleOffset>45</equippedAngleOffset>
@@ -33,9 +33,6 @@
         <Crafting>6</Crafting>
       </skillRequirements>
     </recipeMaker>
-    <thingSetMakerTags>
-      <li>RewardStandardQualitySuper</li>
-    </thingSetMakerTags>
     <statBases>
       <WorkToMake>40000</WorkToMake>
       <Mass>3.5</Mass>
@@ -53,19 +50,16 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>GN_Bullet_SCARL</defaultProjectile>
+        <defaultProjectile>HRK_Bullet_SCARL</defaultProjectile>
         <warmupTime>1.0</warmupTime>
         <range>40</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-        <soundCast>GN_Shot_SCARL</soundCast>
+        <soundCast>HRK_Shot_SCARL</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
-    <weaponTags>
-      <li>IndustrialGunAdvanced</li>
-    </weaponTags>
     <tools>
       <li>
         <label>stock</label>
@@ -85,14 +79,23 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <thingSetMakerTags Inherit="False">
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <thingCategories Inherit="False">
+      <li>GunNut</li>
+    </thingCategories>
   </ThingDef>
 
   <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>GN_SCARL_C</defName>
+    <defName>HRK_SCARL_C</defName>
     <label>FN SCAR-L (custom)</label>
-    <description>_</description>
+    <description>The FN SCAR (Special Operations Forces Combat Assault Rifle) is a gas-operated self-loading assault/battle rifle with a rotating bolt. It is constructed with modularity in mind.\n\nThis SCAR-L is set up in the assault rifle configuration.</description>
     <graphicData>
-      <texPath>Things/Weapons/GN_SCARL_C</texPath>
+      <texPath>Things/Weapons/HRK_FNSCARL_C</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <equippedAngleOffset>45</equippedAngleOffset>
@@ -103,9 +106,6 @@
         <Crafting>7</Crafting>
       </skillRequirements>
     </recipeMaker>
-    <thingSetMakerTags>
-      <li>RewardStandardQualitySuper</li>
-    </thingSetMakerTags>
     <statBases>
       <WorkToMake>45000</WorkToMake>
       <Mass>3.6</Mass>
@@ -123,19 +123,16 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>GN_Bullet_SCARL</defaultProjectile>
+        <defaultProjectile>HRK_Bullet_SCARL</defaultProjectile>
         <warmupTime>1.0</warmupTime>
-        <range>45</range>
+        <range>43</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-        <soundCast>GN_Shot_SD_SCARL</soundCast>
+        <soundCast>HRK_Shot_SD_SCARL</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
-    <weaponTags>
-      <li>IndustrialGunAdvanced</li>
-    </weaponTags>
     <tools>
       <li>
         <label>stock</label>
@@ -158,11 +155,21 @@
     <equippedStatOffsets>
       <HuntingStealth>0.15</HuntingStealth>
     </equippedStatOffsets>
+    <thingSetMakerTags Inherit="False">
+      <li>RewardStandardLowFreq</li>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <thingCategories Inherit="False">
+      <li>GunNut</li>
+    </thingCategories>
   </ThingDef>
 
   <!--===== SCAR H =====-->
   <ThingDef ParentName="BaseBullet">
-    <defName>GN_Bullet_SCARH</defName>
+    <defName>HRK_Bullet_SCARH</defName>
     <label>FN SCAR-H bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
@@ -171,16 +178,17 @@
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>12</damageAmountBase>
+      <armorPenetrationBase>0.1</armorPenetrationBase>
       <speed>60</speed>
     </projectile>
   </ThingDef>
 
   <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>GN_SCARH</defName>
+    <defName>HRK_SCARH</defName>
     <label>FN SCAR-H</label>
-    <description>_</description>
+    <description>The FN SCAR (Special Operations Forces Combat Assault Rifle) is a gas-operated self-loading assault/battle rifle with a rotating bolt. It is constructed with modularity in mind.\n\nThis SCAR-H is set up in the Battle rifle configuration.</description>
     <graphicData>
-      <texPath>Things/Weapons/GN_SCARH</texPath>
+      <texPath>Things/Weapons/HRK_FNSCARH</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <equippedAngleOffset>45</equippedAngleOffset>
@@ -211,19 +219,16 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>GN_Bullet_SCARH</defaultProjectile>
+        <defaultProjectile>HRK_Bullet_SCARH</defaultProjectile>
         <warmupTime>1.2</warmupTime>
         <range>34</range>
         <burstShotCount>2</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-        <soundCast>GN_Shot_SCARH</soundCast>
+        <soundCast>HRK_Shot_SCARH</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>12</muzzleFlashScale>
       </li>
     </verbs>
-    <weaponTags>
-      <li>IndustrialGunAdvanced</li>
-    </weaponTags>
     <tools>
       <li>
         <label>stock</label>
@@ -243,14 +248,23 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <thingSetMakerTags Inherit="False">
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <thingCategories Inherit="False">
+      <li>GunNut</li>
+    </thingCategories>
   </ThingDef>
 
   <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>GN_SCARH_C</defName>
+    <defName>HRK_SCARH_C</defName>
     <label>FN SCAR-H (custom)</label>
-    <description>_</description>
+    <description>The FN SCAR (Special Operations Forces Combat Assault Rifle) is a gas-operated self-loading assault/battle rifle with a rotating bolt. It is constructed with modularity in mind.\n\nThis SCAR-H is set up in the Battle rifle configuration.</description>
     <graphicData>
-      <texPath>Things/Weapons/GN_SCARH_C</texPath>
+      <texPath>Things/Weapons/HRK_FNSCARH_C</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <equippedAngleOffset>45</equippedAngleOffset>
@@ -281,19 +295,16 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>GN_Bullet_SCARH</defaultProjectile>
+        <defaultProjectile>HRK_Bullet_SCARH</defaultProjectile>
         <warmupTime>1.2</warmupTime>
-        <range>34</range>
+        <range>40</range>
         <burstShotCount>2</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-        <soundCast>GN_Shot_SD_SCARH</soundCast>
+        <soundCast>HRK_Shot_SD_SCARH</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>12</muzzleFlashScale>
       </li>
     </verbs>
-    <weaponTags>
-      <li>IndustrialGunAdvanced</li>
-    </weaponTags>
     <tools>
       <li>
         <label>stock</label>
@@ -316,6 +327,110 @@
     <equippedStatOffsets>
       <HuntingStealth>0.15</HuntingStealth>
     </equippedStatOffsets>
+    <thingSetMakerTags Inherit="False">
+      <li>RewardStandardLowFreq</li>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <thingCategories Inherit="False">
+      <li>GunNut</li>
+    </thingCategories>
+  </ThingDef>
+
+  <!--===== Charged SCAR =====-->
+  <ThingDef ParentName="BaseBullet">
+    <defName>HRK_Bullet_Charged_SCAR</defName>
+    <label>FN SCAR charged bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Charge_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>17</damageAmountBase>
+      <armorPenetrationBase>0.42</armorPenetrationBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>HRK_Charged_SCAR</defName>
+    <label>FN SCAR (charged)</label>
+    <description>The FN SCAR (Special Operations Forces Combat Assault Rifle) is a gas-operated self-loading assault/battle rifle with a rotating bolt. It is constructed with modularity in mind.\n\nThis SCAR is modified to use pulse-charge technology which charges each shot with unstable energy as it leaves the barrel. Released on impact, the charged energy greatly increases the damage done.</description>
+    <techLevel>Spacer</techLevel>
+    <graphicData>
+      <texPath>Things/Weapons/HRK_FNSCAR_Charged</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>50000</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.70</AccuracyTouch>
+      <AccuracyShort>0.80</AccuracyShort>
+      <AccuracyMedium>0.75</AccuracyMedium>
+      <AccuracyLong>0.65</AccuracyLong>
+      <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Plasteel>75</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>HRK_Bullet_Charged_SCAR</defaultProjectile>
+        <warmupTime>1.2</warmupTime>
+        <range>43</range>
+        <burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <soundCast>HRK_Shot_Charged_SCAR</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <thingSetMakerTags Inherit="False">
+      <li>RewardStandardLowFreq</li>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <weaponTags Inherit="False">
+      <li>SpacerGun</li>
+    </weaponTags>
+    <thingCategories Inherit="False">
+      <li>GunNut</li>
+    </thingCategories>
   </ThingDef>
 
 </Defs>
