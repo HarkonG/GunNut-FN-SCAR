@@ -82,7 +82,8 @@
     </tools>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
-    </weaponTags>
+      <li>AssaultRifle</li>
+    </weaponTags>    
   </ThingDef>
 
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
@@ -153,6 +154,7 @@
     </equippedStatOffsets>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
+      <li>AssaultRifle</li>
     </weaponTags>
   </ThingDef>
 
@@ -241,6 +243,7 @@
     </tools>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
+      <li>AssaultRifle</li>
     </weaponTags>
   </ThingDef>
 
@@ -315,6 +318,7 @@
     </equippedStatOffsets>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
+      <li>AssaultRifle</li>
     </weaponTags>
   </ThingDef>
 
@@ -404,6 +408,9 @@
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
     </weaponTags>
+    <weaponClasses>
+      <li>LongShots</li>
+    </weaponClasses>
   </ThingDef>
 
   <!--===== Charged SCAR =====-->
