@@ -86,7 +86,7 @@
 
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_SCARL_C</defName>
-    <label>FN SCAR-L (custom)</label>
+    <label>FN SCAR-L SOF</label>
     <description>The FN SCAR (Special Operations Forces Combat Assault Rifle) is a gas-operated self-loading assault/battle rifle with a rotating bolt. It is constructed with modularity in mind.\n\nThis SCAR-L is set up in the assault rifle configuration.</description>
     <graphicData>
       <texPath>Things/Weapons/HRK_FNSCARL_C/HRK_FNSCARL_C_Tan</texPath>
@@ -242,7 +242,7 @@
 
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_SCARH_C</defName>
-    <label>FN SCAR-H (custom)</label>
+    <label>FN SCAR-H Marksman</label>
     <description>The FN SCAR (Special Operations Forces Combat Assault Rifle) is a gas-operated self-loading assault/battle rifle with a rotating bolt. It is constructed with modularity in mind.\n\nThis SCAR-H is set up in the Battle rifle configuration.</description>
     <graphicData>
       <texPath>Things/Weapons/HRK_FNSCARH_C/HRK_FNSCARH_C_Black</texPath>
@@ -331,8 +331,8 @@
 
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_SSR</defName>
-    <label>FN SSR</label>
-    <description>_</description>
+    <label>FN MK 20 SSR</label>
+    <description>The FN MK 20 SSR (SCAR Sniper Rifle) is a gas-operated self-loading assault/battle rifle with a rotating bolt. It is constructed with modularity in mind.\n\nThis SCAR-H is set up in the DMR configuration.</description>
     <graphicData>
       <texPath>Things/Weapons/HRK_FNSSR/HRK_FNSSR_Tan</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -418,7 +418,7 @@
 
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_Charged_SCAR</defName>
-    <label>FN SCAR (charged)</label>
+    <label>charge FN SCAR</label>
     <description>The FN SCAR (Special Operations Forces Combat Assault Rifle) is a gas-operated self-loading assault/battle rifle with a rotating bolt. It is constructed with modularity in mind.\n\nThis SCAR is modified to use pulse-charge technology which charges each shot with unstable energy as it leaves the barrel. Released on impact, the charged energy greatly increases the damage done.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
