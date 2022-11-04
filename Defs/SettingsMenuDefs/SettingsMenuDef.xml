@@ -24,7 +24,7 @@
             <li Class="XmlExtensions.Setting.Gap"/>
 
             <li Class="XmlExtensions.Setting.Text">
-                <text>Select a camo per gun, most of the time is just a color swap but in some cases some minor details may also be visible. This setting only affects the base gun and does not affect ideology styles.</text>
+                <text>Select a camo per gun, most of the time is just a simple color swap but in some cases some details may change, refer to the mod page to preview the options. This setting only affects the base gun and does not affect ideology styles.</text>
                 <font>Tiny</font>
             </li>
 
@@ -190,8 +190,6 @@
 
                 </rightCol>
             </li>
-
-
 
             <li Class="XmlExtensions.Setting.GapLine"/>
             <li Class="XmlExtensions.Setting.Text">
