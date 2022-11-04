@@ -345,7 +345,7 @@
     <graphicData>
       <texPath>Things/Weapons/HRK_FNSSR/HRK_FNSSR_Tan</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.1</drawSize>
+      <drawSize>1.2</drawSize>
     </graphicData>
     <equippedAngleOffset>45</equippedAngleOffset>
     <soundInteract>Interact_Rifle</soundInteract>
