@@ -12,7 +12,7 @@
                 <!--===== TOOLS FOR THE TOOL GOD =====-->
                 <li Class="PatchOperationReplace">
                     <xpath>
-				    /Defs/ThingDef[defName = "HRK_SCARH" or defName="HRK_SCARH_C" or defName="HRK_SCARL_C" or defName="HRK_SCARL" or defName="HRK_Charged_SCAR"]/tools
+				    /Defs/ThingDef[defName = "HRK_SCARH" or defName="HRK_SCARH_C" or defName="HRK_SCARL_C" or defName="HRK_SCARL" or defName="HRK_SSR" or defName="HRK_Charged_SCAR"]/tools
                     </xpath>
                     <value>
                         <tools>
@@ -59,7 +59,7 @@
                         <Mass>3.29</Mass>
                         <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
                         <SightsEfficiency>1</SightsEfficiency>
-                        <ShotSpread>0.01</ShotSpread>
+                        <ShotSpread>0.1</ShotSpread>
                         <SwayFactor>1.22</SwayFactor>
                         <WorkToMake>31000</WorkToMake>
                     </statBases>
@@ -91,17 +91,20 @@
                         <aiAimMode>AimedShot</aiAimMode>
                         <aimedBurstShotCount>3</aimedBurstShotCount>
                     </FireModes>
+                    <weaponTags>
+                        <li>CE_AI_Rifle</li>
+                    </weaponTags>
                 </li>
 
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                     <defName>HRK_SCARL_C</defName>
                     <statBases>
-                        <Bulk>6.45</Bulk>
+                        <Bulk>6.55</Bulk>
                         <Mass>3.39</Mass>
                         <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
                         <SightsEfficiency>1.1</SightsEfficiency>
-                        <ShotSpread>0.01</ShotSpread>
-                        <SwayFactor>1.22</SwayFactor>
+                        <ShotSpread>0.09</ShotSpread>
+                        <SwayFactor>1.24</SwayFactor>
                         <WorkToMake>32500</WorkToMake>
                     </statBases>
                     <costList>
@@ -113,7 +116,7 @@
                         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                         <hasStandardCommand>true</hasStandardCommand>
                         <defaultProjectile>Bullet_556x45mmNATO_FMJ</defaultProjectile>
-                        <warmupTime>1.1</warmupTime>
+                        <warmupTime>1.0</warmupTime>
                         <range>55</range>
                         <burstShotCount>6</burstShotCount>
                         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
@@ -132,6 +135,9 @@
                         <aiAimMode>AimedShot</aiAimMode>
                         <aimedBurstShotCount>3</aimedBurstShotCount>
                     </FireModes>
+                    <weaponTags>
+                        <li>CE_AI_Rifle</li>
+                    </weaponTags>
                 </li>
 
                 <!--SCAR H-->
@@ -143,7 +149,7 @@
                         <RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
                         <SightsEfficiency>1</SightsEfficiency>
                         <ShotSpread>0.09</ShotSpread>
-                        <SwayFactor>1.38</SwayFactor>
+                        <SwayFactor>1.32</SwayFactor>
                         <WorkToMake>31000</WorkToMake>
                     </statBases>
                     <costList>
@@ -155,7 +161,7 @@
                         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                         <hasStandardCommand>true</hasStandardCommand>
                         <defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
-                        <warmupTime>1.4</warmupTime>
+                        <warmupTime>1.1</warmupTime>
                         <range>62</range>
                         <burstShotCount>6</burstShotCount>
                         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
@@ -174,17 +180,20 @@
                         <aiAimMode>AimedShot</aiAimMode>
                         <aimedBurstShotCount>3</aimedBurstShotCount>
                     </FireModes>
+                    <weaponTags>
+                        <li>CE_AI_Rifle</li>
+                    </weaponTags>
                 </li>
 
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                     <defName>HRK_SCARH_C</defName>
                     <statBases>
-                        <Bulk>7.21</Bulk>
-                        <Mass>3.68</Mass>
+                        <Bulk>7.31</Bulk>
+                        <Mass>3.58</Mass>
                         <RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
                         <SightsEfficiency>2.36</SightsEfficiency>
-                        <ShotSpread>0.09</ShotSpread>
-                        <SwayFactor>1.38</SwayFactor>
+                        <ShotSpread>0.08</ShotSpread>
+                        <SwayFactor>1.40</SwayFactor>
                         <WorkToMake>37500</WorkToMake>
                     </statBases>
                     <costList>
@@ -203,7 +212,7 @@
                         <soundCast>HRK_Shot_SD_SCARH</soundCast>
                         <soundCastTail>GunTail_Medium</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
-                        <recoilAmount>2</recoilAmount>
+                        <recoilAmount>2.01</recoilAmount>
                     </Properties>
                     <AmmoUser>
                         <magazineSize>20</magazineSize>
@@ -215,6 +224,50 @@
                         <aiAimMode>AimedShot</aiAimMode>
                         <aimedBurstShotCount>3</aimedBurstShotCount>
                     </FireModes>
+                    <weaponTags>
+                        <li>CE_AI_Rifle</li>
+                    </weaponTags>
+                </li>
+
+                <!--SSR-->
+                <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                    <defName>HRK_SSR</defName>
+                    <statBases>
+                        <Bulk>11.80</Bulk>
+                        <Mass>4.85</Mass>
+                        <RangedWeapon_Cooldown>0.56</RangedWeapon_Cooldown>
+                        <SightsEfficiency>2.48</SightsEfficiency>
+                        <ShotSpread>0.07</ShotSpread>
+                        <SwayFactor>1.15</SwayFactor>
+                        <WorkToMake>31000</WorkToMake>
+                    </statBases>
+                    <costList>
+                        <Chemfuel>5</Chemfuel>
+                        <Steel>45</Steel>
+                        <ComponentIndustrial>5</ComponentIndustrial>
+                    </costList>
+                    <Properties>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>true</hasStandardCommand>
+                        <defaultProjectile>Bullet_65x48mmBlackout_FMJ</defaultProjectile>
+                        <warmupTime>1.7</warmupTime>
+                        <range>78</range>
+                        <soundCast>HRK_Shot_SCARH</soundCast>
+                        <soundCastTail>GunTail_Medium</soundCastTail>
+                        <muzzleFlashScale>9</muzzleFlashScale>
+                        <recoilAmount>1.49</recoilAmount>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>20</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>AmmoSet_65x48mmBlackout</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <weaponTags>
+                        <li>CE_AI_Rifle</li>
+                    </weaponTags>
                 </li>
 
                 <!--SCAR (charged)-->
@@ -225,7 +278,7 @@
                         <Mass>3.58</Mass>
                         <RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
                         <SightsEfficiency>2.36</SightsEfficiency>
-                        <ShotSpread>0.01</ShotSpread>
+                        <ShotSpread>0.1</ShotSpread>
                         <SwayFactor>1.38</SwayFactor>
                         <WorkToMake>53500</WorkToMake>
                     </statBases>
@@ -238,7 +291,7 @@
                     <Properties>
                         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                         <hasStandardCommand>true</hasStandardCommand>
-                        <defaultProjectile>Bullet_8x50mmCharged</defaultProjectile>
+                        <defaultProjectile>Bullet_8x35mmCharged</defaultProjectile>
                         <warmupTime>1.4</warmupTime>
                         <range>62</range>
                         <burstShotCount>6</burstShotCount>
@@ -246,18 +299,21 @@
                         <soundCast>HRK_Shot_Charged_SCAR</soundCast>
                         <soundCastTail>GunTail_Medium</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
-                        <recoilAmount>2.11</recoilAmount>
+                        <recoilAmount>2.01</recoilAmount>
                     </Properties>
                     <AmmoUser>
                         <magazineSize>25</magazineSize>
                         <reloadTime>4</reloadTime>
-                        <ammoSet>AmmoSet_8x50mmCharged</ammoSet>
+                        <ammoSet>AmmoSet_8x35mmCharged</ammoSet>
                     </AmmoUser>
                     <FireModes>
                         <aiUseBurstMode>TRUE</aiUseBurstMode>
                         <aiAimMode>AimedShot</aiAimMode>
                         <aimedBurstShotCount>3</aimedBurstShotCount>
                     </FireModes>
+                    <weaponTags>
+                        <li>bipodDMR</li>
+                    </weaponTags>
                 </li>
 
             </operations>
