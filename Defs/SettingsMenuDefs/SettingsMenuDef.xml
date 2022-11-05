@@ -77,7 +77,7 @@
 
                     <li Class="XmlExtensions.Setting.RadioButtons">
                         <key>FNSCARH_Camo</key>
-                        <defaultValue>HRK_FNSCARH_Tan</defaultValue>
+                        <defaultValue>HRK_FNSCARH_Black</defaultValue>
                         <buttons>
                             <li>
                                 <value>HRK_FNSCARH_Black</value>
@@ -171,7 +171,7 @@
 
                     <li Class="XmlExtensions.Setting.RadioButtons">
                         <key>FNSCARH_C_Camo</key>
-                        <defaultValue>HRK_FNSCARH_C_Tan</defaultValue>
+                        <defaultValue>HRK_FNSCARH_C_Black</defaultValue>
                         <buttons>
                             <li>
                                 <value>HRK_FNSCARH_C_Black</value>
