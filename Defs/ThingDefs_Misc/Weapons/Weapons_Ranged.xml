@@ -83,7 +83,7 @@
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
       <li>AssaultRifle</li>
-    </weaponTags>    
+    </weaponTags>
   </ThingDef>
 
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
@@ -155,7 +155,7 @@
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
       <li>AssaultRifle</li>
-    </weaponTags>    
+    </weaponTags>
   </ThingDef>
 
   <!--===== SCAR H =====-->

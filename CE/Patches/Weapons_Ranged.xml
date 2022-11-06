@@ -239,11 +239,11 @@
                         <SightsEfficiency>2.48</SightsEfficiency>
                         <ShotSpread>0.07</ShotSpread>
                         <SwayFactor>1.15</SwayFactor>
-                        <WorkToMake>31000</WorkToMake>
+                        <WorkToMake>32500</WorkToMake>
                     </statBases>
                     <costList>
-                        <Chemfuel>5</Chemfuel>
-                        <Steel>45</Steel>
+                        <Chemfuel>10</Chemfuel>
+                        <Steel>60</Steel>
                         <ComponentIndustrial>5</ComponentIndustrial>
                     </costList>
                     <Properties>
