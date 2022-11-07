@@ -22,9 +22,7 @@
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Royalty</li>
-		<li>Ludeon.RimWorld.Biotech</li>
-		<li>XeoNovaDan.ProperShotguns</li>
-		<li>swedishmask.ProperShotgunsPatch</li>
+		<li>Ludeon.RimWorld.Biotech</li>		
 		<li>CETeam.CombatExtended</li>
 		<li>VanillaExpanded.VWE</li>
 		<li>Harkon.GunNut.CORE</li>
