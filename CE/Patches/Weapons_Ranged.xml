@@ -99,17 +99,17 @@
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                     <defName>HRK_SCARL_C</defName>
                     <statBases>
-                        <Bulk>6.55</Bulk>
-                        <Mass>3.39</Mass>
+                        <Bulk>8.35</Bulk>
+                        <Mass>4.29</Mass>
                         <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
                         <SightsEfficiency>1.1</SightsEfficiency>
-                        <ShotSpread>0.09</ShotSpread>
-                        <SwayFactor>1.24</SwayFactor>
-                        <WorkToMake>32500</WorkToMake>
+                        <ShotSpread>0.05</ShotSpread>
+                        <SwayFactor>1.52</SwayFactor>
+                        <WorkToMake>34000</WorkToMake>
                     </statBases>
                     <costList>
                         <Chemfuel>5</Chemfuel>
-                        <Steel>45</Steel>
+                        <Steel>55</Steel>
                         <ComponentIndustrial>6</ComponentIndustrial>
                     </costList>
                     <Properties>
@@ -123,7 +123,7 @@
                         <soundCast>HRK_Shot_SD_SCARL</soundCast>
                         <soundCastTail>GunTail_Medium</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
-                        <recoilAmount>1.4</recoilAmount>
+                        <recoilAmount>1.31</recoilAmount>
                     </Properties>
                     <AmmoUser>
                         <magazineSize>30</magazineSize>
@@ -188,17 +188,17 @@
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                     <defName>HRK_SCARH_C</defName>
                     <statBases>
-                        <Bulk>7.31</Bulk>
-                        <Mass>3.58</Mass>
+                        <Bulk>9.11</Bulk>
+                        <Mass>4.58</Mass>
                         <RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
                         <SightsEfficiency>2.36</SightsEfficiency>
-                        <ShotSpread>0.08</ShotSpread>
-                        <SwayFactor>1.40</SwayFactor>
-                        <WorkToMake>37500</WorkToMake>
+                        <ShotSpread>0.04</ShotSpread>
+                        <SwayFactor>1.68</SwayFactor>
+                        <WorkToMake>38500</WorkToMake>
                     </statBases>
                     <costList>
                         <Chemfuel>5</Chemfuel>
-                        <Steel>45</Steel>
+                        <Steel>55</Steel>
                         <ComponentIndustrial>7</ComponentIndustrial>
                     </costList>
                     <Properties>
@@ -212,7 +212,7 @@
                         <soundCast>HRK_Shot_SD_SCARH</soundCast>
                         <soundCastTail>GunTail_Medium</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
-                        <recoilAmount>2.01</recoilAmount>
+                        <recoilAmount>1.86</recoilAmount>
                     </Properties>
                     <AmmoUser>
                         <magazineSize>20</magazineSize>
