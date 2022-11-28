@@ -28,6 +28,21 @@
                         <tradeability>None</tradeability>
                     </value>
                 </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="VWE_Gun_BattleRifle"]</xpath>
+                    <value>
+                        <generateCommonality>0</generateCommonality>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace" MayRequire="VanillaExpanded.VCEFAddon">
+                    <xpath>/Defs/VCE_Fishing.FishDef[defName="VCEF_SpecialVWE_Gun_BattleRifle"]/thingDef</xpath>
+                    <value>
+                        <thingDef>HRK_SCARH</thingDef>
+                    </value>
+                </li>
+
             </operations>
         </match>
     </Operation>
