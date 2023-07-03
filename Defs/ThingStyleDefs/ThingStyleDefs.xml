@@ -7,6 +7,7 @@
             <texPath>Things/Weapons/HRK_FNSCARL/HRK_FNSCARL_Black</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+        <uiIconPath>UI/Weapons/HRK_FNSCARL/HRK_FNSCARL_Black</uiIconPath>
     </ThingStyleDef>
     <ThingStyleDef>
         <defName>HRK_SCARL_TanCamo</defName>
@@ -14,6 +15,7 @@
             <texPath>Things/Weapons/HRK_FNSCARL/HRK_FNSCARL_Tan</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+        <uiIconPath>UI/Weapons/HRK_FNSCARL/HRK_FNSCARL_Tan</uiIconPath>
     </ThingStyleDef>
     <ThingStyleDef>
         <defName>HRK_SCARL_WhiteCamo</defName>
@@ -21,6 +23,7 @@
             <texPath>Things/Weapons/HRK_FNSCARL/HRK_FNSCARL_White</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+        <uiIconPath>UI/Weapons/HRK_FNSCARL/HRK_FNSCARL_White</uiIconPath>
     </ThingStyleDef>
 
     <ThingStyleDef>
@@ -29,6 +32,7 @@
             <texPath>Things/Weapons/HRK_FNSCARL_C/HRK_FNSCARL_C_Black</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+        <uiIconPath>UI/Weapons/HRK_FNSCARL_C/HRK_FNSCARL_C_Black</uiIconPath>
     </ThingStyleDef>
     <ThingStyleDef>
         <defName>HRK_SCARL_C_TanCamo</defName>
@@ -36,6 +40,7 @@
             <texPath>Things/Weapons/HRK_FNSCARL_C/HRK_FNSCARL_C_Tan</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+        <uiIconPath>UI/Weapons/HRK_FNSCARL_C/HRK_FNSCARL_C_Tan</uiIconPath>
     </ThingStyleDef>
     <ThingStyleDef>
         <defName>HRK_SCARL_C_WhiteCamo</defName>
@@ -43,6 +48,7 @@
             <texPath>Things/Weapons/HRK_FNSCARL_C/HRK_FNSCARL_C_White</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+        <uiIconPath>UI/Weapons/HRK_FNSCARL_C/HRK_FNSCARL_C_White</uiIconPath>
     </ThingStyleDef>
 
 
@@ -52,6 +58,7 @@
             <texPath>Things/Weapons/HRK_FNSCARH/HRK_FNSCARH_Black</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+        <uiIconPath>UI/Weapons/HRK_FNSCARH/HRK_FNSCARH_Black</uiIconPath>
     </ThingStyleDef>
     <ThingStyleDef>
         <defName>HRK_SCARH_TanCamo</defName>
@@ -59,6 +66,7 @@
             <texPath>Things/Weapons/HRK_FNSCARH/HRK_FNSCARH_Tan</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+        <uiIconPath>UI/Weapons/HRK_FNSCARH/HRK_FNSCARH_Tan</uiIconPath>
     </ThingStyleDef>
     <ThingStyleDef>
         <defName>HRK_SCARH_WhiteCamo</defName>
@@ -66,6 +74,7 @@
             <texPath>Things/Weapons/HRK_FNSCARH/HRK_FNSCARH_White</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+        <uiIconPath>UI/Weapons/HRK_FNSCARH/HRK_FNSCARH_White</uiIconPath>
     </ThingStyleDef>
 
     <ThingStyleDef>
@@ -74,6 +83,7 @@
             <texPath>Things/Weapons/HRK_FNSCARH_C/HRK_FNSCARH_C_Black</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+        <uiIconPath>UI/Weapons/HRK_FNSCARH_C/HRK_FNSCARH_C_Black</uiIconPath>
     </ThingStyleDef>
     <ThingStyleDef>
         <defName>HRK_SCARH_C_TanCamo</defName>
@@ -81,6 +91,7 @@
             <texPath>Things/Weapons/HRK_FNSCARH_C/HRK_FNSCARH_C_Tan</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+        <uiIconPath>UI/Weapons/HRK_FNSCARH_C/HRK_FNSCARH_C_Tan</uiIconPath>
     </ThingStyleDef>
     <ThingStyleDef>
         <defName>HRK_SCARH_C_WhiteCamo</defName>
@@ -88,6 +99,7 @@
             <texPath>Things/Weapons/HRK_FNSCARH_C/HRK_FNSCARH_C_White</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+        <uiIconPath>UI/Weapons/HRK_FNSCARH_C/HRK_FNSCARH_C_White</uiIconPath>
     </ThingStyleDef>
 
     <ThingStyleDef>
@@ -96,6 +108,7 @@
             <texPath>Things/Weapons/HRK_FNSSR/HRK_FNSSR_Black</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+        <uiIconPath>UI/Weapons/HRK_FNSSR/HRK_FNSSR_Black</uiIconPath>
     </ThingStyleDef>
     <ThingStyleDef>
         <defName>HRK_SSR_TanCamo</defName>
@@ -103,6 +116,7 @@
             <texPath>Things/Weapons/HRK_FNSSR/HRK_FNSSR_Tan</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+        <uiIconPath>UI/Weapons/HRK_FNSSR/HRK_FNSSR_Tan</uiIconPath>
     </ThingStyleDef>
     <ThingStyleDef>
         <defName>HRK_SSR_WhiteCamo</defName>
@@ -110,6 +124,7 @@
             <texPath>Things/Weapons/HRK_FNSSR/HRK_FNSSR_White</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+        <uiIconPath>UI/Weapons/HRK_FNSSR/HRK_FNSSR_White</uiIconPath>
     </ThingStyleDef>
 
 </Defs>

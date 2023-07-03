@@ -12,6 +12,12 @@
                     <texPath>Things/Weapons/HRK_FNSCARL/{FNSCARL_Camo}</texPath>
                 </value>
             </Operation>
+            <Operation Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="HRK_SCARL"]/uiIconPath</xpath>
+                <value>
+                    <uiIconPath>UI/Weapons/HRK_FNSCARL/{FNSCARL_Camo}</uiIconPath>
+                </value>
+            </Operation>
         </apply>
     </Operation>
 
@@ -24,6 +30,12 @@
                 <xpath>/Defs/ThingDef[defName="HRK_SCARL_C"]/graphicData/texPath</xpath>
                 <value>
                     <texPath>Things/Weapons/HRK_FNSCARL_C/{FNSCARL_C_Camo}</texPath>
+                </value>
+            </Operation>
+            <Operation Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="HRK_SCARL_C"]/uiIconPath</xpath>
+                <value>
+                    <uiIconPath>UI/Weapons/HRK_FNSCARL_C/{FNSCARL_C_Camo}</uiIconPath>
                 </value>
             </Operation>
         </apply>
@@ -40,6 +52,12 @@
                     <texPath>Things/Weapons/HRK_FNSCARH/{FNSCARH_Camo}</texPath>
                 </value>
             </Operation>
+            <Operation Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="HRK_SCARH"]/uiIconPath</xpath>
+                <value>
+                    <uiIconPath>UI/Weapons/HRK_FNSCARH/{FNSCARH_Camo}</uiIconPath>
+                </value>
+            </Operation>
         </apply>
     </Operation>
 
@@ -54,6 +72,12 @@
                     <texPath>Things/Weapons/HRK_FNSCARH_C/{FNSCARH_C_Camo}</texPath>
                 </value>
             </Operation>
+            <Operation Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="HRK_SCARH_C"]/uiIconPath</xpath>
+                <value>
+                    <uiIconPath>UI/Weapons/HRK_FNSCARH_C/{FNSCARH_C_Camo}</uiIconPath>
+                </value>
+            </Operation>
         </apply>
     </Operation>
 
@@ -66,6 +90,12 @@
                 <xpath>/Defs/ThingDef[defName="HRK_SSR"]/graphicData/texPath</xpath>
                 <value>
                     <texPath>Things/Weapons/HRK_FNSSR/{FNSSR_Camo}</texPath>
+                </value>
+            </Operation>
+            <Operation Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="HRK_SSR"]/uiIconPath</xpath>
+                <value>
+                    <uiIconPath>UI/Weapons/HRK_FNSSR/{FNSSR_Camo}</uiIconPath>
                 </value>
             </Operation>
         </apply>

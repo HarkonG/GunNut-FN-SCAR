@@ -25,6 +25,7 @@
       <texPath>Things/Weapons/HRK_FNSCARL/HRK_FNSCARL_Tan</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <uiIconPath>UI/Weapons/HRK_FNSCARL/HRK_FNSCARL_Tan</uiIconPath>
     <equippedAngleOffset>45</equippedAngleOffset>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
@@ -88,12 +89,13 @@
 
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_SCARL_C</defName>
-    <label>FN SCAR-L SOF</label>
+    <label>FN SCAR-L grenadier</label>
     <description>The FN SCAR (Special Operations Forces Combat Assault Rifle) is a gas-operated self-loading assault/battle rifle with a rotating bolt. It is constructed with modularity in mind.\n\nThis SCAR-L is set up in the assault rifle configuration.</description>
     <graphicData>
       <texPath>Things/Weapons/HRK_FNSCARL_C/HRK_FNSCARL_C_Tan</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <uiIconPath>UI/Weapons/HRK_FNSCARL_C/HRK_FNSCARL_C_Tan</uiIconPath>
     <equippedAngleOffset>45</equippedAngleOffset>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
@@ -149,9 +151,6 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
-    <equippedStatOffsets>
-      <HuntingStealth>0.15</HuntingStealth>
-    </equippedStatOffsets>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
       <li>AssaultRifle</li>
@@ -183,6 +182,7 @@
       <texPath>Things/Weapons/HRK_FNSCARH/HRK_FNSCARH_Black</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <uiIconPath>UI/Weapons/HRK_FNSCARH/HRK_FNSCARH_Black</uiIconPath>
     <equippedAngleOffset>45</equippedAngleOffset>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
@@ -249,12 +249,13 @@
 
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_SCARH_C</defName>
-    <label>FN SCAR-H Marksman</label>
+    <label>FN SCAR-H SOF</label>
     <description>The FN SCAR (Special Operations Forces Combat Assault Rifle) is a gas-operated self-loading assault/battle rifle with a rotating bolt. It is constructed with modularity in mind.\n\nThis SCAR-H is set up in the Battle rifle configuration.</description>
     <graphicData>
       <texPath>Things/Weapons/HRK_FNSCARH_C/HRK_FNSCARH_C_Black</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <uiIconPath>UI/Weapons/HRK_FNSCARH_C/HRK_FNSCARH_C_Black</uiIconPath>
     <equippedAngleOffset>45</equippedAngleOffset>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
@@ -347,6 +348,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.2</drawSize>
     </graphicData>
+    <uiIconPath>UI/Weapons/HRK_FNSSR/HRK_FNSSR_Tan</uiIconPath>
     <equippedAngleOffset>45</equippedAngleOffset>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
@@ -438,6 +440,7 @@
       <texPath>Things/Weapons/HRK_FNSCAR_Charged</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <uiIconPath>UI/Weapons/HRK_FNSCAR_Charged</uiIconPath>
     <equippedAngleOffset>45</equippedAngleOffset>
     <soundInteract>Interact_ChargeRifle</soundInteract>
     <recipeMaker>
