@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Combat Extended</li>
+        </mods>
+        <nomatch Class="PatchOperationSequence">
+            <operations>
+
+                <li Class="PatchOperationReplace" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+                    <xpath>Defs/ThingDef[defName="HRK_SCARL_C"]/verbs</xpath>
+                    <value>
+                        <verbs>
+                            <li>
+                                <verbClass>Verb_Shoot</verbClass>
+                                <hasStandardCommand>true</hasStandardCommand>
+                                <defaultProjectile>HRK_Bullet_SCARL</defaultProjectile>
+                                <warmupTime>0.7</warmupTime>
+                                <range>36</range>
+                                <burstShotCount>3</burstShotCount>
+                                <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+                                <soundCast>HRK_Shot_SCARL</soundCast>
+                                <soundCastTail>GunTail_Medium</soundCastTail>
+                                <muzzleFlashScale>9</muzzleFlashScale>
+                                <commandIcon>UI/Gizmos/HRK_Gizmo_FNSCARL</commandIcon>
+                                <label>Rifle</label>
+                            </li>
+                            <li>
+                                <verbClass>Verb_Shoot</verbClass>
+                                <hasStandardCommand>true</hasStandardCommand>
+                                <defaultProjectile>HRK_Bullet_SCARGL</defaultProjectile>
+                                <ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+                                <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+                                <warmupTime>3.5</warmupTime>
+                                <range>23</range>
+                                <forcedMissRadius>2.9</forcedMissRadius>
+                                <burstShotCount>1</burstShotCount>
+                                <soundCast>HRK_Shot_SCARGL</soundCast>
+                                <soundCastTail>GunTail_Medium</soundCastTail>
+                                <muzzleFlashScale>14</muzzleFlashScale>
+                                <targetParams>
+                                    <canTargetLocations>true</canTargetLocations>
+                                </targetParams>
+                                <commandIcon>UI/Gizmos/HRK_Gizmo_FN40UBGL</commandIcon>
+                                <label>UBGL</label>
+                            </li>
+                        </verbs>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+                    <xpath>Defs/ThingDef[defName="HRK_SCARL_C"]</xpath>
+                    <value>
+                        <comps>
+                            <li Class="MVCF.Comps.CompProperties_VerbProps">
+                                <compClass>MVCF.Comps.Comp_VerbProps</compClass>
+                                <verbProps>
+                                    <li>
+                                        <label>Rifle</label>
+                                        <canBeToggled>true</canBeToggled>
+                                        <separateToggle>false</separateToggle>
+                                    </li>
+                                    <li>
+                                        <label>UBGL</label>
+                                        <canBeToggled>true</canBeToggled>
+                                        <separateToggle>false</separateToggle>
+                                    </li>
+                                </verbProps>
+                            </li>
+                        </comps>
+                    </value>
+                </li>
+
+            </operations>
+        </nomatch>
+    </Operation>
+
+</Patch>        

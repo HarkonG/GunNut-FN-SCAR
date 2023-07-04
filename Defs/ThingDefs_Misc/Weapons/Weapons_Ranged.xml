@@ -87,6 +87,28 @@
     </weaponTags>
   </ThingDef>
 
+  <ThingDef ParentName="BaseBullet">
+    <defName>HRK_Bullet_SCARGL</defName>
+    <label>UBGL frag grenade</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <speed>40</speed>
+      <damageDef>Bomb</damageDef>
+      <!-- Use default damage from explosion def -->
+      <explosionRadius>1.1</explosionRadius>
+      <preExplosionSpawnThingDef>Filth_RubbleRock</preExplosionSpawnThingDef>
+      <preExplosionSpawnChance>0.3</preExplosionSpawnChance>
+      <ai_IsIncendiary>false</ai_IsIncendiary>
+      <arcHeightFactor>0.55</arcHeightFactor>
+      <shadowSize>0.6</shadowSize>
+      <explosionDelay>0</explosionDelay>
+    </projectile>
+  </ThingDef>
+
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_SCARL_C</defName>
     <label>FN SCAR-L grenadier</label>
@@ -127,7 +149,7 @@
         <range>36</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-        <soundCast>HRK_Shot_SD_SCARL</soundCast>
+        <soundCast>HRK_Shot_SCARL</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
