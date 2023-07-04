@@ -113,7 +113,7 @@
             <range>55</range>
             <burstShotCount>6</burstShotCount>
             <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-            <soundCast>HRK_Shot_SD_SCARL</soundCast>
+            <soundCast>HRK_Shot_SCARL</soundCast>
             <soundCastTail>GunTail_Medium</soundCastTail>
             <muzzleFlashScale>9</muzzleFlashScale>
             <recoilAmount>1.31</recoilAmount>
@@ -131,6 +131,37 @@
         <weaponTags>
             <li>CE_AI_Rifle</li>
         </weaponTags>
+    </Operation>
+
+     <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="HRK_SCARL_C"]/comps</xpath>
+        <value>
+            <li Class="CombatExtended.CompProperties_UnderBarrel">
+                <propsUnderBarrel>
+                    <magazineSize>1</magazineSize>
+                    <reloadTime>2.5</reloadTime>
+                    <ammoSet>AmmoSet_40x46mmGrenade</ammoSet>
+                </propsUnderBarrel>
+                <verbPropsUnderBarrel>
+                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                    <hasStandardCommand>True</hasStandardCommand>
+                    <defaultProjectile>Bullet_40x46mmGrenade_HE</defaultProjectile>
+                    <warmupTime>1.1</warmupTime>
+                    <range>41</range>
+                    <soundCast>HRK_Shot_SCARGL</soundCast>
+                    <soundCastTail>GunTail_Medium</soundCastTail>
+                    <muzzleFlashScale>5</muzzleFlashScale>
+                    <recoilAmount>2.70</recoilAmount>
+                    <targetParams>
+                        <canTargetLocations>true</canTargetLocations>
+                    </targetParams>
+                </verbPropsUnderBarrel>
+                <propsFireModesUnderBarrel>
+                    <aiAimMode>SuppressFire</aiAimMode>
+                    <aiUseBurstMode>FALSE</aiUseBurstMode>
+                </propsFireModesUnderBarrel>
+            </li>
+        </value>
     </Operation>
 
     <!--SCAR H-->
@@ -190,8 +221,8 @@
             <WorkToMake>38500</WorkToMake>
         </statBases>
         <costList>
-            <Chemfuel>5</Chemfuel>
-            <Steel>55</Steel>
+            <Chemfuel>10</Chemfuel>
+            <Steel>75</Steel>
             <ComponentIndustrial>7</ComponentIndustrial>
         </costList>
         <Properties>
@@ -220,7 +251,7 @@
         <weaponTags>
             <li>CE_AI_Rifle</li>
         </weaponTags>
-    </Operation>
+    </Operation>   
 
     <!--SSR-->
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
