@@ -92,18 +92,18 @@
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
         <defName>HRK_SCARL_C</defName>
         <statBases>
-            <Bulk>8.35</Bulk>
-            <Mass>4.29</Mass>
+            <Bulk>6.35</Bulk>
+            <Mass>4.60</Mass>
             <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
             <SightsEfficiency>1.1</SightsEfficiency>
-            <ShotSpread>0.05</ShotSpread>
-            <SwayFactor>1.52</SwayFactor>
+            <ShotSpread>0.1</ShotSpread>
+            <SwayFactor>1.35</SwayFactor>
             <WorkToMake>34000</WorkToMake>
         </statBases>
         <costList>
-            <Chemfuel>5</Chemfuel>
-            <Steel>55</Steel>
-            <ComponentIndustrial>6</ComponentIndustrial>
+            <Chemfuel>10</Chemfuel>
+            <Steel>65</Steel>
+            <ComponentIndustrial>7</ComponentIndustrial>
         </costList>
         <Properties>
             <verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -116,7 +116,7 @@
             <soundCast>HRK_Shot_SCARL</soundCast>
             <soundCastTail>GunTail_Medium</soundCastTail>
             <muzzleFlashScale>9</muzzleFlashScale>
-            <recoilAmount>1.31</recoilAmount>
+            <recoilAmount>1.27</recoilAmount>
         </Properties>
         <AmmoUser>
             <magazineSize>30</magazineSize>
@@ -133,7 +133,7 @@
         </weaponTags>
     </Operation>
 
-     <Operation Class="PatchOperationAdd">
+    <Operation Class="PatchOperationAdd">
         <xpath>/Defs/ThingDef[defName="HRK_SCARL_C"]/comps</xpath>
         <value>
             <li Class="CombatExtended.CompProperties_UnderBarrel">
@@ -221,8 +221,8 @@
             <WorkToMake>38500</WorkToMake>
         </statBases>
         <costList>
-            <Chemfuel>10</Chemfuel>
-            <Steel>75</Steel>
+            <Chemfuel>5</Chemfuel>
+            <Steel>55</Steel>
             <ComponentIndustrial>7</ComponentIndustrial>
         </costList>
         <Properties>
@@ -251,7 +251,7 @@
         <weaponTags>
             <li>CE_AI_Rifle</li>
         </weaponTags>
-    </Operation>   
+    </Operation>
 
     <!--SSR-->
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
