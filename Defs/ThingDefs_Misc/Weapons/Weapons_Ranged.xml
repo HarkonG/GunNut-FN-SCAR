@@ -368,7 +368,7 @@
     <graphicData>
       <texPath>Things/Weapons/HRK_FNSSR/HRK_FNSSR_Tan</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.2</drawSize>
+      <drawSize>1</drawSize>
     </graphicData>
     <uiIconPath>UI/Weapons/HRK_FNSSR/HRK_FNSSR_Tan</uiIconPath>
     <equippedAngleOffset>45</equippedAngleOffset>

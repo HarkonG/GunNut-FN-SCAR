@@ -4,9 +4,7 @@
 
     <!--===== TOOLS FOR THE TOOL GOD =====-->
     <Operation Class="PatchOperationReplace">
-        <xpath>
-				    /Defs/ThingDef[defName = "HRK_SCARH" or defName="HRK_SCARH_C" or defName="HRK_SCARL_C" or defName="HRK_SCARL" or defName="HRK_SSR" or defName="HRK_Charged_SCAR"]/tools
-        </xpath>
+        <xpath>/Defs/ThingDef[defName = "HRK_SCARH" or defName="HRK_SCARH_C" or defName="HRK_SCARL_C" or defName="HRK_SCARL" or defName="HRK_SSR" or defName="HRK_Charged_SCAR"]/tools</xpath>
         <value>
             <tools>
                 <li Class="CombatExtended.ToolCE">
