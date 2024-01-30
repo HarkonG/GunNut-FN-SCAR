@@ -22,7 +22,7 @@
     <label>FN SCAR-L</label>
     <description>The FN SCAR (Special Operations Forces Combat Assault Rifle) is a gas-operated self-loading assault/battle rifle with a rotating bolt. It is constructed with modularity in mind.\n\nThis SCAR-L is set up in the assault rifle configuration.</description>
     <graphicData>
-      <texPath>Things/Weapons/HRK_FNSCARL/HRK_FNSCARL_Tan</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/HRK_FNSCARL/HRK_FNSCARL_Tan</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <uiIconPath>UI/Weapons/HRK_FNSCARL/HRK_FNSCARL_Tan</uiIconPath>
@@ -114,7 +114,7 @@
     <label>FN SCAR-L grenadier</label>
     <description>The FN SCAR (Special Operations Forces Combat Assault Rifle) is a gas-operated self-loading assault/battle rifle with a rotating bolt. It is constructed with modularity in mind.\n\nThis SCAR-L is set up in the assault rifle configuration.</description>
     <graphicData>
-      <texPath>Things/Weapons/HRK_FNSCARL_C/HRK_FNSCARL_C_Tan</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/HRK_FNSCARL_C/HRK_FNSCARL_C_Tan</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <uiIconPath>UI/Weapons/HRK_FNSCARL_C/HRK_FNSCARL_C_Tan</uiIconPath>
@@ -201,7 +201,7 @@
     <label>FN SCAR-H</label>
     <description>The FN SCAR (Special Operations Forces Combat Assault Rifle) is a gas-operated self-loading assault/battle rifle with a rotating bolt. It is constructed with modularity in mind.\n\nThis SCAR-H is set up in the Battle rifle configuration.</description>
     <graphicData>
-      <texPath>Things/Weapons/HRK_FNSCARH/HRK_FNSCARH_Black</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/HRK_FNSCARH/HRK_FNSCARH_Black</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <uiIconPath>UI/Weapons/HRK_FNSCARH/HRK_FNSCARH_Black</uiIconPath>
@@ -274,7 +274,7 @@
     <label>FN SCAR-H SOF</label>
     <description>The FN SCAR (Special Operations Forces Combat Assault Rifle) is a gas-operated self-loading assault/battle rifle with a rotating bolt. It is constructed with modularity in mind.\n\nThis SCAR-H is set up in the Battle rifle configuration.</description>
     <graphicData>
-      <texPath>Things/Weapons/HRK_FNSCARH_C/HRK_FNSCARH_C_Black</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/HRK_FNSCARH_C/HRK_FNSCARH_C_Black</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <uiIconPath>UI/Weapons/HRK_FNSCARH_C/HRK_FNSCARH_C_Black</uiIconPath>
@@ -366,7 +366,7 @@
     <label>FN MK 20 SSR</label>
     <description>The FN MK 20 SSR (SCAR Sniper Rifle) is a gas-operated self-loading assault/battle rifle with a rotating bolt. It is constructed with modularity in mind.\n\nThis SCAR-H is set up in the DMR configuration.</description>
     <graphicData>
-      <texPath>Things/Weapons/HRK_FNSSR/HRK_FNSSR_Tan</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/HRK_FNSSR/HRK_FNSSR_Tan</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1</drawSize>
     </graphicData>
@@ -459,7 +459,7 @@
     <description>The FN SCAR (Special Operations Forces Combat Assault Rifle) is a gas-operated self-loading assault/battle rifle with a rotating bolt. It is constructed with modularity in mind.\n\nThis SCAR is modified to use pulse-charge technology which charges each shot with unstable energy as it leaves the barrel. Released on impact, the charged energy greatly increases the damage done.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
-      <texPath>Things/Weapons/HRK_FNSCAR_Charged</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/HRK_FNSCAR_Charged</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <uiIconPath>UI/Weapons/HRK_FNSCAR_Charged</uiIconPath>

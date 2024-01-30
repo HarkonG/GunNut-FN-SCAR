@@ -9,7 +9,7 @@
             <Operation Class="PatchOperationReplace">
                 <xpath>/Defs/ThingDef[defName="HRK_SCARL"]/graphicData/texPath</xpath>
                 <value>
-                    <texPath>Things/Weapons/HRK_FNSCARL/{FNSCARL_Camo}</texPath>
+                    <texPath>Things/Item/Equipment/WeaponRanged/HRK_FNSCARL/{FNSCARL_Camo}</texPath>
                 </value>
             </Operation>
             <Operation Class="PatchOperationReplace">
@@ -29,7 +29,7 @@
             <Operation Class="PatchOperationReplace">
                 <xpath>/Defs/ThingDef[defName="HRK_SCARL_C"]/graphicData/texPath</xpath>
                 <value>
-                    <texPath>Things/Weapons/HRK_FNSCARL_C/{FNSCARL_C_Camo}</texPath>
+                    <texPath>Things/Item/Equipment/WeaponRanged/HRK_FNSCARL_C/{FNSCARL_C_Camo}</texPath>
                 </value>
             </Operation>
             <Operation Class="PatchOperationReplace">
@@ -49,7 +49,7 @@
             <Operation Class="PatchOperationReplace">
                 <xpath>/Defs/ThingDef[defName="HRK_SCARH"]/graphicData/texPath</xpath>
                 <value>
-                    <texPath>Things/Weapons/HRK_FNSCARH/{FNSCARH_Camo}</texPath>
+                    <texPath>Things/Item/Equipment/WeaponRanged/HRK_FNSCARH/{FNSCARH_Camo}</texPath>
                 </value>
             </Operation>
             <Operation Class="PatchOperationReplace">
@@ -69,7 +69,7 @@
             <Operation Class="PatchOperationReplace">
                 <xpath>/Defs/ThingDef[defName="HRK_SCARH_C"]/graphicData/texPath</xpath>
                 <value>
-                    <texPath>Things/Weapons/HRK_FNSCARH_C/{FNSCARH_C_Camo}</texPath>
+                    <texPath>Things/Item/Equipment/WeaponRanged/HRK_FNSCARH_C/{FNSCARH_C_Camo}</texPath>
                 </value>
             </Operation>
             <Operation Class="PatchOperationReplace">
@@ -89,7 +89,7 @@
             <Operation Class="PatchOperationReplace">
                 <xpath>/Defs/ThingDef[defName="HRK_SSR"]/graphicData/texPath</xpath>
                 <value>
-                    <texPath>Things/Weapons/HRK_FNSSR/{FNSSR_Camo}</texPath>
+                    <texPath>Things/Item/Equipment/WeaponRanged/HRK_FNSSR/{FNSSR_Camo}</texPath>
                 </value>
             </Operation>
             <Operation Class="PatchOperationReplace">
